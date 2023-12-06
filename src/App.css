@@ -1,0 +1,40 @@
+.header {
+  height: 50px;
+  background: #0d6efd;
+}
+.body-container {
+  min-height:85vh;
+}
+.banner {
+    height: 150px;
+    background-color: #ffffff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-book {
+  position: relative;
+  width: 500px;
+  text-align: center;
+}
+.right-0 {
+  right:0;
+}
+.add-btn, .btn-search {
+  border-radius: 50px;
+  font-size: 16px;
+}
+.text-right {
+  text-align: right;
+}
+.search-input {
+  border-top-right-radius: 50px;
+  border-bottom-right-radius:50px;
+}
+.table-button:hover {
+  color:#0d6efd;
+}
+.table-button:focus {
+  outline:none;
+  border:none;
+}

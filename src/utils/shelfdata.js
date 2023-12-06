@@ -1,0 +1,32 @@
+export const gameData = [
+  {
+    id: 1,
+    bookName: "The Great Gatsby",
+    isbn: "9780743273565",
+    category: "Classic",
+    rowNo: "A1",
+    count: 5,
+    cost: 15,
+    availability: true,
+  },
+  {
+    id: 2,
+    bookName: "To Kill a Mockingbird",
+    isbn: "9780061120084",
+    category: "Fiction",
+    rowNo: "B2",
+    count: 3,
+    cost: 18,
+    availability: true,
+  },
+  {
+    id: 3,
+    bookName: "1984",
+    isbn: "9780451524935",
+    category: "Dystopian",
+    rowNo: "C3",
+    count: 7,
+    cost: 12,
+    availability: false,
+  },
+];
